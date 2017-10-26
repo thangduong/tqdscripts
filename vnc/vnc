@@ -1,0 +1,2 @@
+vncserver  -geometry 1920x1080 -depth 24
+# -set BlacklistTimeout=0 -set BlacklistThreshold=10000000
