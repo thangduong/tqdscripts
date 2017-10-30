@@ -5,3 +5,6 @@ sudo apt -y install fvwm
 mkdir ~/.fvwm
 cp fvwm2rc ~/.fvwm/.fvwm2rc
 sudo cp vnc /bin/vnc
+vnc
+echo "vncconfig -set BlackListTimeout=0 -set BlackListThresholds=1000000" >> ~/.vnc/xstartup
+
